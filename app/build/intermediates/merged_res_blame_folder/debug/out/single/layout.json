@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.biteswipe.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.biteswipe.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.biteswipe.app-mergeDebugResources-37:/layout/item_group.xml",
+        "source": "com.biteswipe.app-main-40:/layout/item_group.xml"
+    },
+    {
+        "merged": "com.biteswipe.app-mergeDebugResources-37:/layout/fragment_groups.xml",
+        "source": "com.biteswipe.app-main-40:/layout/fragment_groups.xml"
+    },
+    {
+        "merged": "com.biteswipe.app-mergeDebugResources-37:/layout/fragment_swipe.xml",
+        "source": "com.biteswipe.app-main-40:/layout/fragment_swipe.xml"
+    }
+]

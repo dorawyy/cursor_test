@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.biteswipe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <permission
+26-->[androidx.core:core:1.12.0] /Users/fati/.gradle/caches/8.12/transforms/62c81c0d3ab17e605e3c4abbabedc17f/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.biteswipe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.12.0] /Users/fati/.gradle/caches/8.12/transforms/62c81c0d3ab17e605e3c4abbabedc17f/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.12.0] /Users/fati/.gradle/caches/8.12/transforms/62c81c0d3ab17e605e3c4abbabedc17f/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.biteswipe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.12.0] /Users/fati/.gradle/caches/8.12/transforms/62c81c0d3ab17e605e3c4abbabedc17f/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.12.0] /Users/fati/.gradle/caches/8.12/transforms/62c81c0d3ab17e605e3c4abbabedc17f/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:9:5-29:19
+33        android:allowBackup="true"
+33-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:10:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.12.0] /Users/fati/.gradle/caches/8.12/transforms/62c81c0d3ab17e605e3c4abbabedc17f/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:11:9-43
+38        android:label="@string/app_name"
+38-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:12:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:13:9-54
+40        android:supportsRtl="true"
+40-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:14:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.BiteSwipe" >
+42-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:15:9-47
+43        <meta-data
+43-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:17:9-19:55
+44            android:name="com.google.android.geo.API_KEY"
+44-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:18:13-58
+45            android:value="@string/google_maps_key" />
+45-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:19:13-52
+46
+47        <activity
+47-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:21:9-28:20
+48            android:name="com.biteswipe.MainActivity"
+48-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:22:13-41
+49            android:exported="true" >
+49-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:23:13-36
+50            <intent-filter>
+50-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:24:13-27:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:25:17-69
+51-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:25:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:26:17-77
+53-->/Users/fati/Documents/CPEN321 TA/cursor-project/app/src/main/AndroidManifest.xml:26:27-74
+54            </intent-filter>
+55        </activity>
+56        <!-- Needs to be explicitly declared on P+ -->
+57        <uses-library
+57-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+58            android:name="org.apache.http.legacy"
+58-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+59            android:required="false" />
+59-->[com.google.android.gms:play-services-maps:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/46894b85675e8b797bfea4501633915c/transformed/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/3f758bccb98e81100fd3b7b57d1e5311/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/3f758bccb98e81100fd3b7b57d1e5311/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/3f758bccb98e81100fd3b7b57d1e5311/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/3f758bccb98e81100fd3b7b57d1e5311/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/85d891a9863020844199a85bfa1737a6/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/85d891a9863020844199a85bfa1737a6/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:18.1.0] /Users/fati/.gradle/caches/8.12/transforms/85d891a9863020844199a85bfa1737a6/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+72            android:authorities="com.biteswipe.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/fati/.gradle/caches/8.12/transforms/7ca2b3b84b0d0b3913614a489c25a14b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/fati/.gradle/caches/8.12/transforms/ae88509d12e82453fb62329272aa8fb7/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/fati/.gradle/caches/8.12/transforms/ae88509d12e82453fb62329272aa8fb7/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/fati/.gradle/caches/8.12/transforms/ae88509d12e82453fb62329272aa8fb7/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/fati/.gradle/caches/8.12/transforms/097015dd2fd0c64aa43e9381d63ec1b4/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>

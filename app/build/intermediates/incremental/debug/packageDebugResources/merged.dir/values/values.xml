@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BiteSwipe</string>
+    <string name="google_maps_key">AIzaSyBKcxDGQ-oON88WTihezEPJQ8gNN58jOFg</string>
+    <string name="groups_cancel">Cancel</string>
+    <string name="groups_create">Create Group</string>
+    <string name="groups_create_button">Create</string>
+    <string name="groups_create_hint">Enter group name</string>
+    <string name="groups_create_title">Create New Group</string>
+    <string name="groups_empty">No groups yet. Create one to get started!</string>
+    <string name="groups_error_creating">Error creating group</string>
+    <string name="groups_error_joining">Error joining group</string>
+    <string name="groups_error_leaving">Error leaving group</string>
+    <string name="groups_error_loading">Error loading groups</string>
+    <string name="groups_join">Join</string>
+    <string name="groups_leave">Leave</string>
+    <string name="nav_groups">Groups</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_swipe">Swipe</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_settings">Settings</string>
+    <string name="swipe_dislike">Dislike</string>
+    <string name="swipe_like">Like</string>
+    <string name="swipe_no_more">No more restaurants to show</string>
+</resources>
