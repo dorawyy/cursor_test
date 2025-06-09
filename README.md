@@ -50,7 +50,3 @@ biteswipe/
 - Follow Kotlin best practices for the Android app
 - Follow TypeScript/Node.js best practices for the backend
 - Maintain proper documentation and comments
-
-## License
-
-[Add your license information here] # cursor_cpen321
